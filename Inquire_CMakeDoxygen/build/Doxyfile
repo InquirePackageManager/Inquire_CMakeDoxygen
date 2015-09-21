@@ -1,0 +1,13 @@
+OUTPUT_DIRECTORY = C:/Developpements/Inquire/Inquire_CMakeDoxygen/Inquire_CMakeDoxygen/build/doc
+INPUT = C:/Developpements/Inquire/Inquire_CMakeDoxygen/Inquire_CMakeDoxygen
+RECURSIVE = YES
+# add for example *.cpp *.c *.h
+FILE_PATTERNS = *.txt
+# allows you to display the source (i.e. the CMake scripts)
+SOURCE_BROWSER = YES
+# include undocumented entities
+EXTRACT_ALL = YES
+# use the CMake doxygen filter for .cmake files
+FILTER_PATTERNS = "*.txt=C:/Users/chevassu/.inquire/packages/CMakeDoxygen/build/CMakeDoxygen.exe"
+# for each new extension, you need to specify an extension mapping. Here we use C++ as CMakeDoxygen generate C/C++ code.
+EXTENSION_MAPPING = txt=C++
